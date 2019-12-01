@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Installation Instructions
 The project is created with React v16.8. In order to run the project follow the following steps.
 
-•	Clone the project the GitHub repo. 
+•	Clone the project from the GitHub repo. 
 
 •	Open the terminal and navigate to the cloned directory.
 
