@@ -33,7 +33,7 @@ const NewsCarousel = ({getNews, news: {news, loading} }) => {
                             <Carousel>
                                 { news.items.map( news => {
                                         const parsedNews = ReactHtmlParser(news.content);
-                                        const parsedNewsData = parsedNews[0].props.title.substring(0, 350);
+                                        const parsedNewsData = parsedNews[0].props.title.substring(0, 600);
                                         return<Carousel.Item key={news.guid}>
                                             <img
                                                 className="d-block w-100"
