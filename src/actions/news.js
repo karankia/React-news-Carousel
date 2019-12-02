@@ -4,7 +4,7 @@ import Parser from "rss-parser";
 
 export const getNews = () => async dispatch => {
     try{
-        const res = await axios.get('https://www.cbc.ca/cmlink/rss-topstories');
+        const res = await axios.get('https://cors-anywhere.herokuapp.com/https://www.cbc.ca/cmlink/rss-topstories');
         let parser = new Parser();
         parser.parseString(res.data, function(err, feed){
             if (!err) {
